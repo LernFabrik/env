@@ -9,13 +9,13 @@ trigger:
       - master
   paths:
     include:
-      - .ci/pclBase/env.yml
+      - .ci/pclBase/azure-pipelines.yml
       - docker/pclBase/Dockerfile
 
 pr:
   paths:
     include:
-      - .ci/pclBase/env.yml
+      - .ci/pclBase/azure-pipelines.yml
       - docker/pclBase/Dockerfile
 
 resources:
