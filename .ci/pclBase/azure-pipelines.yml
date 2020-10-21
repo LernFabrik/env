@@ -22,7 +22,7 @@ resources:
 - repo: self
 
 variables:
-  dockerHub: 'prachandabhanu@hub.docker.com'
+  dockerHub: 'Docker Hub'
   dockerHubID: 'prachandabhanu'
 
 jobs:
