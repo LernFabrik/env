@@ -18,6 +18,14 @@ pr:
       - .ci/pclBase/azure-pipelines.yml
       - docker/pclBase/Dockerfile
 
+schedules:
+- cron: "0 0 * * 0"
+  displayName: "Sunday midnight build"
+  branches:
+    include:
+    - master
+        
+
 resources:
 - repo: self
 
