@@ -1,0 +1,28 @@
+version: '3'
+
+services: 
+    robot-base:
+        build: 
+            context: .
+            dockerfile: Dockerfile.base
+            args:
+                - ROS_DISTRO=noetic
+        image: prachandabhanu/env:noetic-robot
+    
+    kuka-install:
+        build: 
+            context: .
+            dockerfile: Dockerfile.fri
+            args: 
+                - ROS_DISTRO=noetic
+                - BASE_IMAGE=prachandabhanu/env:noetic-robot
+        image: prachandabhanu/env:kuka-fri2004
+    
+    kuka-ros:
+        build: 
+            context: .
+            dockerfile: Dockerfile.kuka
+            args: 
+                - ROS_DISTRO=noetic
+                - BASE_IMAGE=prachandabhanu/env:kuka-fri
+        image: prachandabhanu/env:kuka-ros2004
