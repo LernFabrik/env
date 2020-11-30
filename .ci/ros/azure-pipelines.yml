@@ -9,14 +9,14 @@ trigger:
       - main
   paths:
     include:
-      - .ci/pclBase/azure-pipelines.yml
+      - .ci/ros/azure-pipelines.yml
       - docker/ros_preception/Dockerfile
 
 pr:
   paths:
     include:
-      - .ci/pclBase/azure-pipelines.yml
-      - docker/pclBase/Dockerfile
+      - .ci/ros/azure-pipelines.yml
+      - docker/ros_preception/Dockerfile
 
 schedules:
 - cron: "0 0 * * 0"
