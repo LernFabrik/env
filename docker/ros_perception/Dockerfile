@@ -10,9 +10,8 @@ RUN apt-get clean && apt-get update \
     && apt-get -y install build-essential \
     apt-utils \
     wget \
-    curl \
-    tmux \
-    man-db
+    curl  \
+    wstool
 
 RUN if [ "$ROS_DISTRO" = "melodic" ]; then \
     echo "Using $ROS_DISTRO" && \
