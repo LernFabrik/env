@@ -10,13 +10,13 @@ trigger:
   paths:
     include:
       - .ci/ros/azure-pipelines.yml
-      - docker/ros_preception/Dockerfile
+      - docker/ros_perception/Dockerfile
 
 pr:
   paths:
     include:
       - .ci/ros/azure-pipelines.yml
-      - docker/ros_preception/Dockerfile
+      - docker/ros_perception/Dockerfile
 
 schedules:
 - cron: "0 0 * * 0"
