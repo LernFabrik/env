@@ -6,5 +6,5 @@ services:
             context: .
             dockerfile: Dockerfile.base
             args: 
-                - ROS_DISTRO=melodic
+                - ROS_DISTRO=noetic
         image: prachandabhanu/env:rostest

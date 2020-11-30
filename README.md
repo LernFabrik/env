@@ -2,4 +2,5 @@
 
 |  Images    |   Build Status  |  Docker Hub Tags  |
 |------------|-----------------|-------------------|
-| PCL BASE   | [![Build Status](https://dev.azure.com/IWT-Digitization/BuildEnv/_apis/build/status/DockerPCL?branchName=main)](https://dev.azure.com/IWT-Digitization/BuildEnv/_build/latest?definitionId=11&branchName=main)| `prachandabhanu/env:18.04` <br> `pachandabhanu/env:20.04` |    
+| PCL BASE   | [![Build Status](https://dev.azure.com/IWT-Digitization/BuildEnv/_apis/build/status/DockerPCL?branchName=main)](https://dev.azure.com/IWT-Digitization/BuildEnv/_build/latest?definitionId=11&branchName=main)| `prachandabhanu/env:18.04` <br> `pachandabhanu/env:20.04` |
+| ROS        | [![Build Status](https://dev.azure.com/IWT-Digitization/BuildEnv/_apis/build/status/LernFabrik.env?branchName=main&jobName=Env&configuration=Env%20Ubuntu%2018.04)](https://dev.azure.com/IWT-Digitization/BuildEnv/_build/latest?definitionId=14&branchName=main) <br> [![Build Status](https://dev.azure.com/IWT-Digitization/BuildEnv/_apis/build/status/LernFabrik.env?branchName=main&jobName=Env&configuration=Env%20Ubuntu%2020.4)](https://dev.azure.com/IWT-Digitization/BuildEnv/_build/latest?definitionId=14&branchName=main) | `prachandabhanu/env:melodic-perception` <br> `pachandabhanu/env:noetic-perception` |
