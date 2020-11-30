@@ -23,7 +23,7 @@ schedules:
   displayName: "Sunday midnight build"
   branches:
     include:
-    - master
+    - main
         
 
 resources:
