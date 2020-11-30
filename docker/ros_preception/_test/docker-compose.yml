@@ -1,0 +1,10 @@
+version: '3'
+
+services: 
+    kuka-ros:
+        build: 
+            context: .
+            dockerfile: Dockerfile.base
+            args: 
+                - ROS_DISTRO=melodic
+        image: prachandabhanu/env:rostest
