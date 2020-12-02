@@ -17,6 +17,7 @@ RUN apt-get update \
       cmake \
       g++ \
       clang \
+      git \
       wget \
       libboost-date-time-dev \
       libboost-filesystem-dev \
